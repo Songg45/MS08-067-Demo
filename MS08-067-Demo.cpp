@@ -161,7 +161,7 @@ int ms08_067(wchar_t* path)
 
 int main()
 {
-    wchar_t name[] = L"\\c\\..\\..\\AAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
+    wchar_t PathName[] = L"\\c\\..\\..\\AAAAAAAAAAAAAAAAAAAAAAAAAAAAA";
 
-    return ms08_067(name);
+    return ms08_067(PathName);
 }
